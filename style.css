@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*------------- HEADER ----------------*/
+header{
+    background-color: grey;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;   
+}
+
+.idiomas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    gap: 30px;
+}
+
+.darkness{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+/*------------- PRESENTACION PRINCIPAL ----------------*/
+
+.contenedor-presentacion{
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor-presentacion-dos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;    
+}
+
+.presentacion-dos{
+    padding: 20px;
+    background-color: violet;
+    border-radius: 8px;
+}
+
+
+/*------------- PRESENTACION SECUNDARIA----------------*/
+main{
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.columna-uno{
+   width: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+
+.columna-dos{
+    width: 700px;
+}
+
+.mono{
+    height: 300px;
+    border-radius: 20px;
+}
+/*------------- HERRAMIENTAS Y TECNOLOGIAS----------------*/
+
+.contenedor-tecnologias{
+    display: flex;
+    justify-content: space-around; /* Espacio entre las dos columnas */
+    width: 80%; /* Ancho del contenedor */
+    margin-top: 50px;
+}
+
+.tecnologia-columna-uno{
+    flex: 1; /* Ocupa 1/2 del ancho disponible */
+    text-align: center; /* Centrar el contenido dentro de cada columna */
+}
+
+.tecnologia-columna-dos{
+    width: 100px; /* Ancho de las imágenes */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+/*------------- PROYECTOS REALIZADOS----------------*/
+
+.contenedor-proyectos{
+    text-align: center;
+}
+
+/*------------- CONTACTOS FORMULARIO ----------------*/
+.contenedor-contacto{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+
+}
+
+.columna-uno-contacto{
+    flex-direction: column;
+    width: 300px;
+    
+}
+.columna-dos-contacto{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    margin-left: 30px;
+    width: 300px;
+}
+
+
+
+/*------------- CONTACTOS HIPERVINCULOS ----------------*/
+.medios-contactos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactos {
+    height: 30px;
+    margin: 0px 15px 0px 15px;
+}
